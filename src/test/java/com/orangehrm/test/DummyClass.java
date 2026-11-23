@@ -11,6 +11,7 @@ public class DummyClass extends BaseClass{
 	@Test
 	public void dummyTest() {
 		//Test checking for jenkins GitHub hook trigger for GITScm polling option ok.
+		//Test checking for jenkins GitHub hook trigger for GITScm polling option ok.
 		//just checking title
 	//	String title=driver.getTitle(); //using ThreadLocal driver instead of WebDriver directly for parallel teting purpose.
 	//	ExtentManager.startTest("DummyTest1 Test"); //after creating ExtentManager class,then write this line here
