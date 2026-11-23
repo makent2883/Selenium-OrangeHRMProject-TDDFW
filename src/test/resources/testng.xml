@@ -8,7 +8,15 @@
     <classes> 
     	<!-- We setup these classes within single test -->
       
-      <class name="com.orangehrm.test.DBVerificationTest"/>
+      <class name="com.orangehrm.test.DummyClass"/>
+      <class name="com.orangehrm.test.DummyClass2"/>
+      <class name="com.orangehrm.test.LoginPageTest"/>
+       <class name="com.orangehrm.test.HomePageTest"/>
+      <!-- <class name="com.orangehrm.test.DBVerificationTest"/>  
+      	when runing this xml file through testngsuite its giving error, as i changed java version 22 to 25, 
+      	but when i run through run as maven install it got exectuted successfully    	
+      -->
+       <class name="com.orangehrm.test.ApiTest"/>
      
     </classes> 
   </test> 

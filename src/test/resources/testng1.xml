@@ -4,16 +4,16 @@
 <!--  <suite name="OrangeHRMSuite" parallel="classes" thread-count="5"> -->
 <!-- <suite name="OrangeHRMSuite" parallel="tests" thread-count="5">  --> <!-- with parallel="tests" it will executes in sequntial mode not parallel mode as we have only one set of testcase na so. -->
  <!--  <suite name="OrangeHRMSuite" parallel="methods" thread-count="5">  --> <!-- with parallel="methods" it will executes in parallel mode only, as we have 5 testcases in all those classes and it opens 5 browsers at a time and executes parallely ok -->
- <suite name="OrangeHRMSuite" parallel="tests" thread-count="5">
+ <suite name="OrangeHRMSuite" parallel="classes" thread-count="5">
   <test name="OrangeHRMTest1">  <!-- this test will get executed with thread1 -->
     <classes> 
     	<!-- We setup 2 classes within single test -->
       <class name="com.orangehrm.test.DummyClass"/>
       <class name="com.orangehrm.test.DummyClass2"/>
-      <class name="com.orangehrm.test.LoginPageTest"/>
+  <!--    <class name="com.orangehrm.test.LoginPageTest"/>
       <class name="com.orangehrm.test.HomePageTest"/>
       <class name="com.orangehrm.test.DBVerificationTest"/>
-      <class name="com.orangehrm.test.ApiTest"/>
+      <class name="com.orangehrm.test.ApiTest"/>  --> 
       
     </classes> 
   </test> 
